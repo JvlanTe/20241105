@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせフォーム</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        h1 {
+            color: red;
+        }
+    </style> -->
+</head>
+
+<body>
+    <h1>お問い合わせフォーム</h1>
+    <form action="" method="post">
+        <label for="name">氏名:</label>
+        <input type="text" name="" id="name" required>
+        <br><br>
+
+        <label for="birthday">生年月日:</label>
+        <input type="date" name="" id="birthday" required>
+        <br><br>
+
+        <label for="email">メールアドレス:</label>
+        <input type="email" id="email" required>
+        <br><br>
+
+        <label for="telephone">電話番号:</label>
+        <input type="tel" name="" id="telephone" placeholder="0123-45-6789" pattern="[0-9]{2,4}-[0-9]{2-4}-[0-9]{4}" required>
+        <br><br>
+
+        <label for="message">メッセージ:</label>
+        <textarea name="" id="message" cols="40" rows="4"></textarea>
+        <br><br>
+
+        <input type="submit" value="送信">
+    </form>
+</body>
+
+</html>
